@@ -52,6 +52,8 @@
     * Remove section for footer blocks with own mustache template
     * Add theme_boost_campus/nav-drawer template instead of theme_boost/nav-drawer template
     * Require own javascript module for back to top button functionality
+    * Require own javascript module to fix breadcrumb and course setting to the top of the page if the setting breadcrumbtotop
+      is checked
 }}
 {{{ output.doctype }}}
 <html {{{ output.htmlattributes }}}>
@@ -109,4 +111,7 @@ require(['theme_boost/drawer'], function(mod) {
     mod.init();
 });
 require(['theme_boost_campus/backtotop']);
+{{#breadcrumbtotop}}
+    require(['theme_boost_campus/breadcrumbtotop']);
+{{/breadcrumbtotop}}
 {{/js}}

@@ -75,6 +75,10 @@ With this setting you can add block regions to the footer to be able to place bl
 
 This setting can change the behaviour Moodle displays the title for the first course section. Moodle does not display it as long as the default title for this section is set. As soon as a user changes the title, it will appear. With this setting (option is checked), you can achieve a consistent behaviour by always showing the title for section 0.
 
+#### Fixed to top course navigation and settings
+
+With this setting you can fix the course breadcrumb navigation and the course settings to the top of the page when the user scrolls down. This maximazes the accessibility to these important course functions.
+
 ### Course edit button
 
 With this setting you can add an additional course edit on / off button to the course header for faster accessibility. This the same way as it was displayed before theme_boost.

@@ -153,6 +153,13 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
+    // Setting for fixing the course breadcrumb to the top of the page when the user scrolls the page down.
+    $setting = new admin_setting_configcheckbox('theme_boost_campus/breadcrumbtotop',
+        get_string('breadcrumbtotopsetting', 'theme_boost_campus', null, true),
+        get_string('breadcrumbtotopsetting_desc', 'theme_boost_campus', null, true), 0);
+        $setting->set_updatedcallback('theme_reset_all_caches');
+    $page->add($setting);
+
     // Add tab to settings page.
     $settings->add($page);
 

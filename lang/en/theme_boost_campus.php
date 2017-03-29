@@ -63,3 +63,6 @@ $string['section0titlesetting_desc'] = 'This setting can change the behaviour Mo
 $string['showswitchedroleincoursesetting'] = 'Position of switch role information';
 $string['showswitchedroleincoursesetting_desc'] = 'With this setting you can choose the place where the information to which role a user has switched is being displayed. If not checked (default value), the role information will be displayed right beneath the user\'s name in the user menu (like in theme Boost). If checked, this information - together with a link to switch back - will be displayed beneath the course, as this functionality is course related.';
 $string['switchedroleto'] = 'You are viewing this course currently with the role:';
+
+$string['breadcrumbtotopsetting'] = 'Fixed to top course navigation and settings';
+$string['breadcrumbtotopsetting_desc'] = 'With this setting you can fix the course breadcrumb navigation and the course settings to the top of the page when the user scrolls down. This maximazes the accessibility to these important course functions.';

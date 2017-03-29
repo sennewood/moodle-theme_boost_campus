@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2017-03-29 - Setting to be able to fix course breadcrumb navigation and settings to the top of the page when the page is scrolled.
 * 2017-03-23 - Improved fonts on category overview page.
 * 2017-03-21 - Improved design of mailto and broken links.
 * 2017-03-21 - Setting to change position and style of the login form to work out with a greater variety of background images.
