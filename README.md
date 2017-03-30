@@ -117,6 +117,10 @@ We added a back to top button that appears in the right bottom corner when the u
 
 Improved font sizes and weights on category overview page for better readability.
 
+### Columns 1 Layout
+
+Improved columns 1 layout to display navigation possibilities like the page header and the course header again. Otherwise the user would just see the content and the only navigation possibility would be the browser back button.
+
 
 Further information
 -------------------
