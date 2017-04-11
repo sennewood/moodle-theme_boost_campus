@@ -57,4 +57,6 @@ echo $OUTPUT->render_from_template('theme_boost_campus/columns2', $templateconte
 
 /* Add own layouted footer. */
 require_once(dirname(__FILE__).'/includes/footer.php');
+/* Add footnote because the columns2 layout renders the standard footer.*/
+require_once(dirname(__FILE__).'/includes/footnote.php');
 

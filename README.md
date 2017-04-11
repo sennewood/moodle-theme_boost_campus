@@ -83,6 +83,10 @@ With this setting you can add an additional course edit on / off button to the c
 
 Moodle provides some default links in the footer: Link to the Moodle docs, login information, and a link to the webpage start. With these three settings you can decide if you want to hide specific links because you think that your users won't need them in your instance. If checked, the link will not be displayed in the footer. If not checked (default), it will be shown.
 
+### Footnote
+
+Whatever you add to this textarea will be displayed beneath the footer on every page that renders the theme standard footer (for layouts "columns2", "login" and "maintenance"). Content in this area could be for example the copyright, the terms of use and the name of your organisation.
+
 ### 4. Tab "Design Settings"
 
 #### Background images for login page

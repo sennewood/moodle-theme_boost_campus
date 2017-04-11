@@ -559,6 +559,19 @@ blockquote::before {
 
 
 /*------------------------------------
+  Footnote
+  -------------------------------------*/
+
+#page-footer .footnote {
+    min-height: 40px;
+    color: #fff;
+    border-top: 1px solid $brand-primary;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+
+/*------------------------------------
   General improvements
   -------------------------------------*/
 

@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+// Include Footnote.
+require_once(dirname(__FILE__).'/footnote.php');
+
 $footerblocksetting = get_config('theme_boost_campus', 'footerblocks');
 
 // Setting is set to no footer blocks layout.

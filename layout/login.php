@@ -14,19 +14,25 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/**
- * Theme Boost Campus - Version file
- *
- * @package    theme_boost_campus
- * @copyright  2017 Kathrin Osswald, Ulm University <kathrin.osswald@uni-ulm.de>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'theme_boost_campus';
-$plugin->version = 2017041100;
-$plugin->release = 'v3.2-r1';
-$plugin->requires = 2016070700;
-$plugin->maturity = MATURITY_STABLE;
-$plugin->dependencies = array('theme_boost' => 2016102100);
+/**
+ * A login page layout for the boost theme.
+ *
+ * @package   theme_boost
+ * @copyright 2016 Damyon Wiese
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+$bodyattributes = $OUTPUT->body_attributes();
+
+$templatecontext = [
+    'sitename' => format_string($SITE->shortname, true, ['context' => context_course::instance(SITEID), "escape" => false]),
+    'output' => $OUTPUT,
+    'bodyattributes' => $bodyattributes
+];
+
+echo $OUTPUT->render_from_template('theme_boost/login', $templatecontext);
+
+/* Add footnote because the login layout renders the standard footer.*/
+require_once(dirname(__FILE__).'/includes/footnote.php');

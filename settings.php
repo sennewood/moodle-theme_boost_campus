@@ -199,6 +199,18 @@ if ($ADMIN->fulltree) {
         $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
+    // Settings title to group footnote related settings together with a common heading. We don't want a description here.
+    $setting = new admin_setting_heading('theme_boost_campus/footnotelayoutheading',
+        get_string('footnotelayoutheadingsetting', 'theme_boost_campus', null, true), null);
+    $page->add($setting);
+
+    // Footnote setting.
+    $setting = new admin_setting_confightmleditor('theme_boost_campus/footnote',
+        get_string('footnotesetting', 'theme_boost_campus', null, true),
+        get_string('footnotesetting_desc', 'theme_boost_campus', null, true), '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+    $page->add($setting);
+
     // Add tab to settings page.
     $settings->add($page);
 
