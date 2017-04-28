@@ -348,9 +348,8 @@ body.loginbackgroundimage {
         }
         /* Make availability info more eye catching. */
         .availabilityinfo {
-            color: $brand-info;
-            font-style: italic;
-            font-size: .9rem;
+            @extend .badge;
+            font-weight: 400;
         }
         /* Add border to descripion text to differ it from module content. */
         .section .contentafterlink {
