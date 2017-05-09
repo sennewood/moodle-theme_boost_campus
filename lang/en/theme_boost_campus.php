@@ -102,3 +102,7 @@ $string['branddangercolorsetting_desc'] = 'This color is used for example in reg
 $string['navbardesignheadingsetting'] = 'Navbar';
 $string['darknavbarsetting'] = 'Dark navbar';
 $string['darknavbarsetting_desc'] = 'By checking this setting you can invert the default light navbar to a dark one with white links.';
+
+$string['navdrawerheadingsetting'] = 'Nav drawer';
+$string['nawdrawerfullwidthsetting'] = 'Nav drawer width on small screens';
+$string['nawdrawerfullwidthsettings_desc'] = 'By checking this setting you can enlarge the expanded nav drawer menu to the full page width on small screens. This may be wanted because on small screens only very few of the main content area in the background is visible. And a full width menu might serve the users\' expectations how menus are displayed on small screens.';

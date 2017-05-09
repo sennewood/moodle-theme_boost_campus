@@ -107,6 +107,10 @@ With this setting you can add an additional course edit on / off button to the c
 
 Moodle provides some default links in the footer: Link to the Moodle docs, login information, and a link to the webpage start. With these three settings you can decide if you want to hide specific links because you think that your users won't need them in your instance. If checked, the link will not be displayed in the footer. If not checked (default), it will be shown.
 
+### Nav drawer width on small screens
+
+By checking this setting you can enlarge the expanded nav drawer menu to the full page width on small screens. This may be wanted because on small screens only very few of the main content area in the background is visible. And a full width menu might serve the users\' expectations how menus are displayed on small screens.
+
 ### 4. Tab "Design Settings"
 
 #### Background images for login page

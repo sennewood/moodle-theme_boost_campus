@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2017-05-09 - Setting to expand nav drawer menu to full page width on small screens.
 * 2017-05-05 - Improve README.md
 * 2017-05-04 - Setting to select dark page navigation bar design.
 * 2017-04-25 - Improved design of maintenance warning to be more visible.
